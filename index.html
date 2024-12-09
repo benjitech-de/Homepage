@@ -3,82 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Visitenkarte</title>
+    <title>Benjitech Blog</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f4f4f9;
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
         }
-
-        .card {
-            background: white;
+        header {
+            background-color: #0078d7;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
             padding: 20px;
+            background: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .intro {
             text-align: center;
-            width: 350px;
+            margin-bottom: 20px;
         }
-
-        .profile-image img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 3px solid #4CAF50;
+        .intro p {
+            font-size: 1.2em;
         }
-
-        h1 {
-            font-size: 24px;
-            color: #333;
-            margin: 15px 0 5px;
+        .post {
+            margin-bottom: 30px;
         }
-
-        h2 {
-            font-size: 18px;
-            color: #666;
-            margin: 5px 0;
+        .post h2 {
+            font-size: 1.8em;
+            color: #0078d7;
         }
-
-        p {
-            font-size: 14px;
-            color: #555;
-            margin: 10px 0;
+        .post p {
+            line-height: 1.6;
         }
-
-        .contact-info a {
-            display: block;
-            text-decoration: none;
-            color: white;
-            background: #4CAF50;
+        footer {
+            text-align: center;
             padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            transition: background 0.3s ease;
+            background-color: #0078d7;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
-
-        .contact-info a:hover {
-            background: #45a049;
+        footer a {
+            color: #fff;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <div class="profile-image">
-            <img src="profile.jpg" alt="Profilbild">
-        </div>
-        <h1>Benjamin Güntert</h1>
-        <h2>IT- und Digitalisierungsmanager</h2>
-        <p>Gründer von <strong>benjitech.de</strong></p>
-        <p>Ich liebe es, den Arbeitsalltag durch IT zu vereinfachen.</p>
-        <div class="contact-info">
-            <a href="mailto:benjamin@benjitech.de">E-Mail senden</a>
-            <a href="https://benjitech.de" target="_blank">Webseite besuchen</a>
-            <a href="https://www.linkedin.com/in/benjamin-guentert" target="_blank">LinkedIn</a>
-        </div>
-    </div>
+    <header>
+        <h1>Benjitech Blog</h1>
+        <p>IT-Themen & Tutorials für alle, die Technik lieben 💻✨</p>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Willkommen!</h2>
+            <p>Hallo, ich bin Benjamin Güntert, Gründer von <strong>benjitech.de</strong>. 🚀 Hier auf meinem Blog findest du aktuelle IT-Trends, nützliche Tutorials und spannende Insights aus der Welt der Technologie. Gemeinsam machen wir Technik verständlich und zugänglich für alle. Danke, dass du Teil der Community bist! ❤️</p>
+        </section>
+        <section class="post">
+            <h2>💡 Was ist neu in der IT-Welt?</h2>
+            <p>Bleib auf dem Laufenden mit den neuesten Trends in der IT! Ob künstliche Intelligenz, Cloud-Technologien oder Cybersicherheit – hier erfährst du alles, was du wissen musst, um am Puls der Zeit zu bleiben.</p>
+        </section>
+        <section class="post">
+            <h2>📚 Tutorial: Wie du eine einfache Website erstellst</h2>
+            <p>In unserem ersten Tutorial zeige ich dir Schritt für Schritt, wie du eine einfache HTML- und CSS-Website erstellst. Perfekt für Einsteiger und alle, die ihre Web-Entwicklungskünste verbessern möchten. Schau vorbei!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Benjitech.de | <a href="https://benjitech.de">Zur Website</a></p>
+    </footer>
 </body>
 </html>
